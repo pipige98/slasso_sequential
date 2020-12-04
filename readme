@@ -1,0 +1,20 @@
+# A good method for Varible selection!
+
+Lasso is an R package :sequential lasso method for high-dim data variables selection(Luo, 2014) output: the index of varibles selected!
+
+## Installation
+
+To install the latest version:
+
+```r
+install.packages("~/Desktop/研课/slasso_0.1.0.tar.gz", repos = NULL, type = "source")
+library(slasso)
+help(Slasso)     #注意要大写！！
+```
+
+To install the latest development version from GitHub:
+
+```r
+remotes::install_github("pbreheny/ncvreg")
+```
+
